@@ -12,9 +12,6 @@ class batsman{
         cout<<"Enter Batsman Code : ";
         cin>>bcode;
         bname = h;
-        // cout<<"Enter Batsman Name : ";
-        //cin>>bname;
-        // getline(cin, bname);
         cout<<"Enter Played Inning : ";
         cin>>inning;
         cout<<"Enter Not-Out Inning : ";
