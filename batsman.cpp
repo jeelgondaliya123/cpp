@@ -2,12 +2,16 @@
 #include<string>
 using namespace std;
 class batsman{
+   
+    
     int bcode, inning, notout, runs, batavg;
     string bname;
+    public:
+    batsman();65
     void calcavg(){
         batavg=runs/(inning-notout);
     }
-    public:
+    
     void readdata(string h){
         cout<<"Enter Batsman Code : ";
         cin>>bcode;
@@ -31,6 +35,5 @@ class batsman{
 };
 int main(){
     batsman b;
-    b.readdata("Mahendrasing Dhoni");
-    b.displaydata();
+    
 }
